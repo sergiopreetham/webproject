@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Profile</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+	<!-- Bootstrap JS -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/profile.css">
+	<script src="js/profile.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">User Profile</h4>
+			</div>
+			<div class="modal-body">
+				<form id="profile-form" method="post">
+					<div class="form-group">
+						<label for="age">Age:</label>
+						<input type="text" class="form-control" id="age" name="age">
+					</div>
+					<div class="form-group">
+						<label for="dob">Date of Birth:</label>
+						<input type="date" class="form-control" id="dob" name="dob">
+					</div>
+					<div class="form-group">
+						<label for="contact">Contact:</label>
+						<input type="text" class="form-control" id="contact" name="contact">
+					</div>
+					<button type="submit" class="btn btn-primary">Update Profile</button>
+					<a href="logout.php" class="btn btn-danger">Logout</a>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab || www.codinglabweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<title>Login & Signup Form</title>-->
+    <link rel="stylesheet" href="CSS/register.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="js/register.js"></script>
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="form signup">
+        <header>Registration</header>
+        <form id="myform" method="post" action="">
+          <input type="text" id="username" name="username" placeholder="Full name" required />
+          <input type="email" id="email" name="email" placeholder="Email address" required />
+          <input type="password" id="password" name="password" placeholder="Password" required />
+          <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm password" required>
+          <div class="checkbox">
+            <input type="checkbox" id="signupCheck" required />
+            <label for="signupCheck">I accept all terms & conditions</label>
+          </div>
+          <input type="submit" value="Register" />
+          
+        </form>
+      </div>
+    </section>
+    <script>
+    </script>
+  </body>
+</html>
